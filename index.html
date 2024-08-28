@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./gifs/qr.jpg" type="image/x-icon">
+    <title>QRCODE</title>
+</head>
+<body>
+    
+    <section class="container">
+        <div class="formulario">
+            <h3 class="qr-code">Gerador de QR-CODE</h3>
+            <div id="form">
+                <label class="label">Insira uma URL para ou texto para gerar um Qr Code</label>
+                <input type="text" placeholder="Insira aqui" class="input" id="input">
+                <button class="botao" id="botao">Gerar Qr Code</button>
+
+            </div>
+            <div class="code">
+                <img id="code"/>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
